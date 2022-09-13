@@ -1,3 +1,16 @@
+CREATE TABLE People (
+id BIGSERIAL PRIMARY KEY,
+first_name VARCHAR (50) NOT NULL,
+last_name VARCHAR (50) NOT NULL,
+email VARCHAR (150) NOT NULL,
+gender VARCHAR (7) NOT NULL,
+date_of_birth DATE NOT NULL,
+country_of_birth VARCHAR (50) NOT NULL
+);
+
+
+
+
 insert into People (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (1, 'Arni', 'Lipgens', 'alipgens0@techcrunch.com', 'Male', '2022/07/11', 'Indonesia');
 insert into People (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (2, 'Kelli', 'Siaspinski', 'ksiaspinski1@bbb.org', 'Female', '2021/12/03', 'France');
 insert into People (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (3, 'Madelle', 'Lambot', 'mlambot2@opera.com', 'Female', '2021/12/29', 'Indonesia');
