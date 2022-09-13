@@ -1,3 +1,13 @@
+CREATE TABLE (
+    id BIGSERIAL PRIMARY KEY,
+    first_name VARCHAR (50) NOT NULL,
+    last_name VARCHAR (50) NOT NULL,
+    email VARCHAR (50) NOT NULL,
+    gender VARCHAR (7) NOT NULL,
+    date_of_birth DATE NOT NULL,
+    country_of_birth VARCHAR (50) NOT NULL
+);
+
 
 insert into Contracts (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (1, 'Rancell', 'Clapton', 'rclapton0@cnn.com', 'Male', '2022/01/27', 'Cape Verde');
 insert into Contracts (id, first_name, last_name, email, gender, date_of_birth, country_of_birth) values (2, 'Rosella', 'Flory', 'rflory1@mediafire.com', 'Female', '2022/08/22', 'Canada');
